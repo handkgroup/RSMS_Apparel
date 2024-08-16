@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSMS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <!-- <link rel="stylesheet" href="styles3.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Kaku+Gothic+New&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Dots&family=Zen+Kaku+Gothic+New&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Upper Side Popup & Signup Section -->
+    <header class="signuppage">
+        <p>Sign up and get 20% off your first order. <a href="#">Sign Up Now</a></p>
+        <button>X</button>
+    </header>
+
+    <!-- Signup Popup -->
+    <div id="signup-popup" class="popup-background">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+
+            <!-- Sign Up / Sign In Container -->
+            <div class="container right-panel-active">
+                <!-- <a href="#">X</a> -->
+                <!-- Sign Up -->
+                <div class="container__form container--signup">
+                    <form action="#" class="form" id="form1">
+                        <h2 class="form__title">Sign Up</h2>
+                        <input type="text" placeholder="User" class="input" />
+                        <input type="email" placeholder="Email" class="input" />
+                        <input type="password" placeholder="Password" class="input" />
+                        <button class="btn">Sign Up</button>
+                    </form>
+                </div>
+
+                <!-- Sign In -->
+                <div class="container__form container--signin">
+                    <form action="#" class="form" id="form2">
+                        <h2 class="form__title">Sign In</h2>
+                        <input type="email" placeholder="Email" class="input" />
+                        <input type="password" placeholder="Password" class="input" />
+                        <a href="#" class="link">Forgot your password?</a>
+                        <button class="btn">Sign In</button>
+                    </form>
+                </div>
+
+                <!-- Overlay -->
+                <div class="container__overlay">
+                    <div class="overlay">
+                        <div class="overlay__panel overlay--left">
+                            <button class="btn" id="signIn">Sign In</button>
+                        </div>
+                        <div class="overlay__panel overlay--right">
+                            <button class="btn" id="signUp">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header_nav ">
+        <a href="index.html"><h1>RSMS</h1></a>
+        
+        <ul class="nav_bar">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Shop <img src="img/arrowdown.svg" alt="arrow" class="arrow"></a>
+                <ul class="main-dropdown-menu">
+                    <li class="submenu-men">
+                        <a href="#" class="submenu-toggle">Men <img src="img/arrowdownwhite.svg" alt="arrow" class="arrow"></a>
+                        <ul class="submenu-dropdown-menu">
+                            <li><a href="index2.html">T-shirt 1</a></li>
+                            <li><a href="#">T-shirt 2</a></li>
+                            <li><a href="#">T-shirt 3</a></li>
+                            <li><a href="#">T-shirt 4</a></li>
+                            <li><a href="#">T-shirt 5</a></li>
+                        </ul>
+                    </li>
+                    <li class="submenu-women">
+                        <a href="#" class="submenu-toggle">Women <img src="img/arrowdownwhite.svg" alt="arrow" class="arrow"></a>
+                        <ul class="submenu-dropdown-menu">
+                            <li><a href="#">T-shirt 1</a></li>
+                            <li><a href="#">T-shirt 2</a></li>
+                            <li><a href="#">T-shirt 3</a></li>
+                            <li><a href="#">T-shirt 4</a></li>
+                            <li><a href="#">T-shirt 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">On Sale</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Brands</a></li>
+        </ul>
+
+        <div class="search">
+            <div class="search_detail">
+                <a href=""><img src="img/Vector.svg" alt="Search icon"></a>
+                <input id="search" placeholder="Search for products..." />
+                <button id="clear-btn" aria-label="Clear search"><img src="img/clear3.svg" alt=""></button>
+            </div>
+        </div>
+        
+        <div class="basket">
+            <a href="#"><img src="img/Vector (1).svg" alt=""></a>
+            <a href="profile.html"><img src="img/Vector (2).svg" alt=""></a>
+        </div>
+    </div>
+
+
+    <div class="main_midle">
+        <div class="left_content">
+            <div class="svg1">
+                <div class="svg1content"><img src="img/star.svg" alt=""></div>
+            </div>
+            <div class="title">
+                <h1>FIND CLOTHES <br> THAT MATCHES <br> YOUR STYLE</h1>
+            </div>
+            <div class="svg2">
+                <div class="svg2content"><img src="img/star.svg" alt=""></div>
+            </div>
+            <div class="button">
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+        <div class="right_content">
+            <div class="right-slider-container">
+                <div class="right-slider">
+                    <div class="right-slide"><img src="img/nn.png" alt="Slide 1"></div>
+                    <div class="right-slide"><img src="img/nn.png" alt="Slide 2"></div>
+                    <div class="right-slide"><img src="img/nn.png" alt="Slide 3"></div>
+                </div>
+                <div class="timer">
+                    <div class="timer-inner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="brandsliderbox">
+        <div class="brandsliderboxcontent">
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+        </div>
+        <div class="brandsliderboxcontent">
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+        </div>
+        <div class="brandsliderboxcontent">
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+        </div>
+        <div class="brandsliderboxcontent">
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+            <p>BRAND</p>
+        </div>
+    </div>
+
+    <div class="newarrivals">
+        <div class="aboutnewarrivals">
+            <h1>NEW ARRIVALS</h1>
+            <div class="aboutnewarrivalsditails">
+
+                <div class="aboutnewarrivalscard">
+                    <img src="img/clths.png" alt="">
+                    <div class="aboutnewarrivalscardtitles">
+                        <p>T-SHIRT WITH TAPE DETAILS</p>
+                        <div class="aboutnewarrivalscardtitlesgroup">
+                            <img src="img/Group 191.svg" alt="">
+                            <p>5.0/<span>5</span></p>
+                        </div>
+                        <p>120$</p>
+                    </div>
+                    <div class="aboutnewarrivalscardbutton">
+                        <a href="">VIEW</a>
+                    </div>
+                </div>
+
+                <div class="aboutnewarrivalscard">
+                    <img src="img/clths.png" alt="">
+                    <div class="aboutnewarrivalscardtitles">
+                        <p>T-SHIRT WITH TAPE DETAILS</p>
+                        <div class="aboutnewarrivalscardtitlesgroup">
+                            <img src="img/Group 191.svg" alt="">
+                            <p>5.0/<span>5</span></p>
+                        </div>
+                        <p>120$</p>
+                    </div>
+                    <div class="aboutnewarrivalscardbutton">
+                        <a href="">VIEW</a>
+                    </div>
+                </div>
+
+                <div class="aboutnewarrivalscard">
+                    <img src="img/clths.png" alt="">
+                    <div class="aboutnewarrivalscardtitles">
+                        <p>T-SHIRT WITH TAPE DETAILS</p>
+                        <div class="aboutnewarrivalscardtitlesgroup">
+                            <img src="img/Group 191.svg" alt="">
+                            <p>5.0/<span>5</span></p>
+                        </div>
+                        <p>120$</p>
+                    </div>
+                    <div class="aboutnewarrivalscardbutton">
+                        <a href="">VIEW</a>
+                    </div>
+                </div>
+
+                <div class="aboutnewarrivalscard">
+                    <img src="img/clths.png" alt="">
+                    <div class="aboutnewarrivalscardtitles">
+                        <p>T-SHIRT WITH TAPE DETAILS</p>
+                        <div class="aboutnewarrivalscardtitlesgroup">
+                            <img src="img/Group 191.svg" alt="">
+                            <p>5.0/<span>5</span></p>
+                        </div>
+                        <p>120$</p>
+                    </div>
+                    <div class="aboutnewarrivalscardbutton">
+                        <a href="">VIEW</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="aboutnewarrivalsbotton">
+                <a href="">VIEW ALL</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="newarrivals">
+        <div class="aboutnewarrivals2">
+            <h1>TOP SELLING</h1>
+            <div class="aboutnewarrivalsditails">
+
+                <div class="aboutnewarrivalscard">
+                    <img src="img/clths.png" alt="">
+                    <div class="aboutnewarrivalscardtitles">
+                        <p>T-SHIRT WITH TAPE DETAILS</p>
+                        <div class="aboutnewarrivalscardtitlesgroup">
+                            <img src="img/Group 191.svg" alt="">
+                            <p>5.0/<span>5</span></p>
+                        </div>
+                        <p>120$</p>
+                    </div>
+                    <div class="aboutnewarrivalscardbutton">
+                        <a href="">VIEW</a>
+                    </div>
+                </div>
+
+                <div class="aboutnewarrivalscard">
+                    <img src="img/clths.png" alt="">
+                    <div class="aboutnewarrivalscardtitles">
+                        <p>T-SHIRT WITH TAPE DETAILS</p>
+                        <div class="aboutnewarrivalscardtitlesgroup">
+                            <img src="img/Group 191.svg" alt="">
+                            <p>5.0/<span>5</span></p>
+                        </div>
+                        <p>120$</p>
+                    </div>
+                    <div class="aboutnewarrivalscardbutton">
+                        <a href="">VIEW</a>
+                    </div>
+                </div>
+
+                <div class="aboutnewarrivalscard">
+                    <img src="img/clths.png" alt="">
+                    <div class="aboutnewarrivalscardtitles">
+                        <p>T-SHIRT WITH TAPE DETAILS</p>
+                        <div class="aboutnewarrivalscardtitlesgroup">
+                            <img src="img/Group 191.svg" alt="">
+                            <p>5.0/<span>5</span></p>
+                        </div>
+                        <p>120$</p>
+                    </div>
+                    <div class="aboutnewarrivalscardbutton">
+                        <a href="">VIEW</a>
+                    </div>
+                </div>
+
+                <div class="aboutnewarrivalscard">
+                    <img src="img/clths.png" alt="">
+                    <div class="aboutnewarrivalscardtitles">
+                        <p>T-SHIRT WITH TAPE DETAILS</p>
+                        <div class="aboutnewarrivalscardtitlesgroup">
+                            <img src="img/Group 191.svg" alt="">
+                            <p>5.0/<span>5</span></p>
+                        </div>
+                        <p>120$</p>
+                    </div>
+                    <div class="aboutnewarrivalscardbutton">
+                        <a href="">VIEW</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="aboutnewarrivalsbotton">
+                <a href="">VIEW ALL</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="catalog">
+        <div class="aboutcatalog">
+            <h1>BROWSE BY DRESS STYLE!</h1>
+            <div class="catalogdetails">
+                <a href="" class="casual">
+                    <p>Casual</p>
+                </a>
+                <a href="" class="formal">
+                    <p>Formal</p>
+                </a>
+                <a href="" class="party">
+                    <p>Party</p>
+                </a>
+                <a href="" class="gym">
+                    <p>Gym</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="reviews-section">
+        <div class="reviews-header">
+            <h2>REVIEWS FROM CLIENTS</h2>
+            <div class="slider-controls">
+                <button id="prevBtn">←</button>
+                <button id="nextBtn">→</button>
+            </div>
+        </div>
+        <div class="slider-wrapper">
+            <div class="slider" id="reviewSlider">
+
+            </div>
+        </div>
+    </div>
+    <div class="offers">
+        <div class="aboutoffers">
+            <h1>STAY UP TO DATE ABOUT OUR LATEST OFFERS</h1>
+            <div class="subscribebutton">
+                <div class="quantum-box" id="popup-1">
+                    <div class="quantum-box-content">
+                        <div class="quantum-box-close" onclick="togglePopup()">×</div>
+                        <h1>Sign In</h1>
+                        <div class="input-nexus">
+                            <input type="text" placeholder="Email" class="input-quantum">
+                        </div>
+                        <div class="input-nexus">
+                            <input type="password" placeholder="Password" class="input-quantum">
+                        </div>
+                        <button class="quantum-btn-signin">Sign In</button>
+                        <p>Don't have an account? <a href="/signup.html">Sign Up</a></p>
+                    </div>
+                </div>
+                <button onclick="togglePopup()" class="quantum-btn-open">Subscribe to Newsletter</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_details">
+            <div class="footer_left">
+                <h1>RSMS</h1>
+                <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                <div class="icons">
+                    <a href=""><img src="img/1.svg" alt=""></a>
+                    <a href=""><img src="img/2.svg" alt=""></a>
+                    <a href=""><img src="img/3.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="column">
+                <span>Company</span>
+                <a href=""><p>About</p></a>
+                <a href=""><p>Features</p></a>
+                <a href=""><p>Works</p></a>
+                <a href=""><p>Career</p></a>
+            </div>
+            <div class="column">
+                <span>Help</span>
+                <a href=""><p>Customer Support</p></a>
+                <a href=""><p>Delivery Details</p></a>
+                <a href=""><p>Terms & Conditions</p></a>
+                <a href=""><p>Privacy Policy</p></a>
+            </div>
+            <div class="column">
+                <span>FAQ</span>
+                <a href=""><p>Account</p></a>
+                <a href=""><p>AbManage Deliveriesout</p></a>
+                <a href=""><p>Orders</p></a>
+                <a href=""><p>Payments</p></a>
+            </div>
+            <div class="column">
+                <span>Resources</span>
+                <a href=""><p>Free eBooks</p></a>
+                <a href=""><p>Development Tutorial</p></a>
+                <a href=""><p>How to - Blog</p></a>
+                <a href=""><p>Youtube Playlist</p></a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+
+</body>
+
+</html>

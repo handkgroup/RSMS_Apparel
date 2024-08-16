@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+.profile_main {
+    display: flex;
+    height: 1040px;
+}
+
+.left_side {
+    width: 380px;
+    height: 100%;
+    background: #f0f0f0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 380px;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.profile h1 {
+    font-family: "Zen Dots", sans-serif;
+}
+
+.pic_name {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pic_title {
+    gap: 10px;
+    display: flex;
+}
+
+.pic_title h1 {
+    font-size: 18px;
+}
+
+
+.pic_img, .pic_img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background: linear-gradient(#8402B2, #4E25C4);
+    padding: 10px;
+}
+
+.pic_img, .pic_img2 {
+    position: relative;
+}
+
+.pic_img img, .pic_img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.pic_img {
+    width: 150px;
+    height: 150px; 
+}
+
+.pic_img2 {
+    width: 350px;
+    height: 350px; 
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.buttons a {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Zen Dots", sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.buttons .logUot a {
+    width: 120px;
+    background: #960000;
+    margin-top: 140px;
+}
+
+.buttons .rsms a {
+    background: none;
+    color: #000;
+    font-size: 50px;
+    padding: 0;
+}
+
+.right_side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.pr_pic {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 100px;
+}
+
+.nschb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nschb h1 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-bottom: 2px solid #6322bd;
+    width: 320px;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 20px;
+}
+
+.nschb a {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#8402B2, #4E25C4);
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 18px;
+    width: 320px;
+    font-size: 20px;
+    font-family: "Zen Dots", sans-serif;
+}
+
+.right_middle {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+
+.profile_form_left, .profile_form_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 360px;
+}
+
+.profile_form_left label, .profile_form_right label {
+    font-size: 16px;
+    font-family: "Zen Dots", sans-serif;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border: 3px solid #6322bd;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    height: 51px;
+}
+
+input[type="date"] {
+    cursor: pointer;
+}
+
+.profile_form_left input[type="date"], .profile_form_right input[type="date"] {
+    cursor: pointer;
+}
+
+.profile_form_left select, .profile_form_right select {
+    background: #fff;
+}
+
+input::placeholder, select::placeholder {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+.right_end {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.right_end h1 {
+    font-size: 16px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+.right_end a {
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    width: 360px;
+    height: 51px;
+}
+
+.right_end a:first-child {
+    display: flex;
+    justify-content: center;
+    color: #009618;
+    border-color: #009618;
+    background: #0096185b;
+}
+
+.right_end a:last-child {
+    display: flex;
+    justify-content: center;
+    color: #960000;
+    border-color: #960000;
+    background: #9600005b;
+}
+#saveChanges {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    width: 360px;
+    height: 51px;
+    font-size: 16px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    text-align: center;
+    color: #009618;
+    border-color: #009618;
+    background: #0096185b;
+}
